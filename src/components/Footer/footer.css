@@ -1,0 +1,68 @@
+.footerContainer{
+    background-color: black;
+   
+    width: 100vw;
+    height: 348px;
+    color: white;
+    display: flex;
+}
+.contenedorIzquierdo{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.contImagen{
+    margin-top: 20px;
+    padding: 20px 80px;
+    margin-left: 50px;
+}
+.contTexto{
+    padding: 0px 80px 0px 80px;
+    width: 80%;
+    margin-left: 50px;
+}
+.contIconos{
+    padding: 20px 0px 0px 80px;
+    margin-left: 50px;
+}
+.contIconos i{
+    margin-right: 10px;
+}
+.contIconos span{
+    margin-right: 20px;
+}
+
+.contenedorDerecho{
+    width: 45%;
+    height: 100%;
+    color: white;
+    display: flex;
+    padding: 60px 80px;
+ 
+}
+.enlaces{
+    margin-right: 60px;
+
+}
+.enlaces h3{
+    font-weight: 100;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.redes h3{
+    font-weight: 100;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.redes i{
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.enlaces ul li{
+    list-style: none;
+    cursor: pointer;
+}
