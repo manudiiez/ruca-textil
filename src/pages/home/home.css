@@ -1,4 +1,39 @@
 #home{
     height: 200vh;
-    background-color: gray;
+}
+
+#home .homePrints{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#home .homePrintsTitle{
+    text-align: center;
+}
+
+#home .homePrintsTitle img{
+    width: 100%;
+    max-width: 290px;
+}
+#home .homePrintsTitle p{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+@media (min-width: 765px) {
+
+    #home .homePrints{
+        padding: 100px 0;
+    }
+
+    #home .homePrintsTitle img{
+        max-width: 540px;
+    }
+
+    #home .homePrintsTitle p{
+        font-size: 64px;
+    }
 }

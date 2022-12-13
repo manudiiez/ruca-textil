@@ -16,13 +16,11 @@ function Slider() {
     <>
    
     <div className='contenedorTotal' >
-        <div className='ovalo1'>
-
-        </div>
+        <div className='ovalo1'></div>
         <motion.div className='sliderContainer'>
-         <img className='a1' src={mokshort} alt="" />
-         <motion.div className='slider' drag="x" dragConstraints={{right:700 , left:-700}}>
-       
+          <img className='a1' src={mokshort} alt="" />
+          <motion.div className='slider' drag="x" dragConstraints={{ right: 820, left: -820 }}>
+
             <motion.div className='item'>
               <img src={estampa1} alt="" />
             </motion.div>
@@ -43,13 +41,11 @@ function Slider() {
             </motion.div>
             <motion.div className='item'>
               <img src={estampa7} alt="" />
-            </motion.div> 
+            </motion.div>
 
-         </motion.div>     
-    </motion.div>
-        <div className='ovalo2'>
-
-        </div>
+          </motion.div>
+        </motion.div>
+        <div className='ovalo2'></div>
 
     </div>
     </>
