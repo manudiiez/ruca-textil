@@ -1,0 +1,17 @@
+.icon{
+    width: 24px;
+    fill: #fff;
+    
+}
+
+.iconArrow{
+    width: 24px;
+    fill: #fff;
+}
+
+
+@media (min-width: 765px) {
+    .icon{
+        display: none;
+    }
+}
