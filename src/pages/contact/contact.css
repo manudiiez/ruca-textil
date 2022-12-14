@@ -5,6 +5,7 @@
 #contacto .contactoBanner{
     width: 100%;
     overflow: hidden;
+    margin-bottom: 32px;
 }
 
 #contacto .contactoBanner img{
@@ -13,9 +14,75 @@
     position: relative;
 }
 
+#contacto .contactoContainer{
+    width: 100%;
+    max-width: 570px;
+    margin: auto;
+    padding: 0 15px;
+}
+#contacto .contactoContainer input{
+    width: 100%;
+    border-radius: 60px;
+    padding: 10px 15px;
+    font-size: 12px;
+    color: #999999;
+    border: 1px solid #999999;
+    margin-bottom: 12px;
+
+}
+#contacto .contactoContainer textarea{
+    width: 100%;
+    border-radius: 16px;
+    padding: 10px 15px;
+    font-size: 12px;
+    color: #999999;
+    border: 1px solid #999999;
+    margin-bottom: 32px;
+    height: 120px;
+
+}
+
+#contacto .contactoContainer button{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 14px 0;
+    border-radius: 40px;
+    border: none;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#contacto .contactoContainer p{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
 @media (min-width: 765px) {
+
+    #contacto .contactoBanner{
+        margin-bottom: 70px;
+    }
+
     #contacto .contactoBanner img{
         width: 100%;
         left: 0;
+    }
+
+    #contacto .contactoContainer input{
+        font-size: 20px;
+    }
+
+    #contacto .contactoContainer textarea{
+        font-size: 20px;
+        height: 280px;
+        margin-bottom: 60px;
+    }
+
+    #contacto .contactoContainer button{
+        font-size: 24px;
+        font-weight: 700;
     }
 }

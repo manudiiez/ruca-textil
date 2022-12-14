@@ -11,7 +11,7 @@ const Cards = () => {
 
         </div>
         <div className='contenedorInfoInformacion'>
-            <h3></h3>
+          
             <ul>
                 <li></li>
                 <li></li>
@@ -30,8 +30,7 @@ const Cards = () => {
         </div>
     </div>
     <div className='bannerMedio'>
-        <h3></h3>
-        <h3></h3>
+       
     </div>
     <div className='carrucelImagenes'>
         carrucel

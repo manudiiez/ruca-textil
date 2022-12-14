@@ -6,16 +6,18 @@ const Contact = () => {
     return (
         <div id='contacto'>
             <div className='contactoBanner'>
-                {/* <div>
-                    <p>FORMULARIO DE CONTACTO</p>
-                    <p>FORMULARIO DE CONTACTO</p>
-                    <p>FORMULARIO DE CONTACTO</p>
-                    <p>FORMULARIO DE CONTACTO</p>
-                    <p>FORMULARIO DE CONTACTO</p>
-                    <p>FORMULARIO DE CONTACTO</p>
-                    <p>FORMULARIO DE CONTACTO</p>
-                </div> */}
                 <img src={banner} alt="" />
+            </div>
+            <div className="contactoContainer">
+                <input type="text" placeholder='Nombre' />
+                <input type="text" placeholder='Email' />
+                <textarea placeholder='Mensaje'></textarea>
+                <button>ENVIAR</button>
+                <p>o</p>
+                <button>
+                    <i className="fa-brands fa-whatsapp"></i>
+                    <span>CONTACTAR POR WHATSAPP</span>
+                </button>
             </div>
         </div>
     )

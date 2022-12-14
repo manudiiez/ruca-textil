@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../../components/Footer/Footer'
 import deportivo from "../../assets/ProductoDeportivo.png"
 import urbano from "../../assets/ProductoUrbano.png"
 import { NavLink } from 'react-router-dom'
