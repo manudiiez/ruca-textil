@@ -62,6 +62,7 @@ const Home = () => {
           <div className="feature">
             <div className='featureImg'>
               <img src={feature3} alt="" />
+              
             </div>
             <p className='featureTitle'>MEDIOS DE PAGO</p>
             <p className='featureSubtitle'>Mercadopago, efectivo</p>

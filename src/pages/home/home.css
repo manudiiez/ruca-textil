@@ -112,7 +112,14 @@
     gap: 10px;
     background-color: #000;
     color: #fff;
+    transition: transform .3s ease-in-out;
 }
+
+#home .homeContact button:hover{
+    transform: scale(1.05);
+}
+
+
 #home .homeContact button span{
     font-size: 16px;
 }
