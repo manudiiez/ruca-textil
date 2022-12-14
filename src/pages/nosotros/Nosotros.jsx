@@ -9,7 +9,7 @@ const Nosotros = () => {
             <img src={titulo} alt="" />
         </div>
         
-            <video className='videoContainer' autoPlay loop muted >
+            <video className='videoContainer' autoPlay loop >
                 <source src={videoRuca} type="video/mp4" />
             </video>
         
