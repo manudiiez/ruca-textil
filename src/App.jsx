@@ -3,9 +3,12 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer/Footer';
 import Menu from './components/Menu/Menu';
+import Contacto from './pages/contacto/Contacto';
+import Deportivo from './pages/deportivo/Deportivo';
 import Home from './pages/home/Home';
 import Nosotros from './pages/nosotros/Nosotros';
 import Productos from './pages/productos/Productos';
+import Urbano from './pages/urbano/Urbano';
 
 
 function App() {
@@ -17,6 +20,9 @@ function App() {
       <Route path='/' element={<Home/>} />
       <Route path='/productos' element={<Productos/>} /> 
       <Route path='/nosotros' element={<Nosotros/>} /> 
+      <Route path='/contacto' element={<Contacto/>} /> 
+      <Route path='/productos/urbano' element={<Urbano/>} /> 
+      <Route path='/productos/deportivo' element={<Deportivo/>} /> 
     </Routes>
 
     <Footer/> 

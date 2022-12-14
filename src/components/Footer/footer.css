@@ -1,10 +1,10 @@
 .footerContainer{
     background-color: black;
-   
     width: 100vw;
     height: 348px;
     color: white;
     display: flex;
+    font-weight: 200;
 }
 .contenedorIzquierdo{
     width: 55%;
@@ -27,6 +27,7 @@
 .contIconos{
     padding: 20px 0px 0px 80px;
     margin-left: 50px;
+    display: flex;
 }
 .contIconos i{
     margin-right: 10px;
@@ -47,6 +48,7 @@
     margin-right: 60px;
 
 }
+
 .enlaces h3{
     font-weight: 100;
     text-decoration: underline;
@@ -65,4 +67,88 @@
 .enlaces ul li{
     list-style: none;
     cursor: pointer;
+}
+
+@media (max-width: 765px) {
+
+    .footerContainer{
+       flex-direction: column;
+       height: auto;
+    }
+    .contenedorIzquierdo{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+
+    }   
+    .contImagen{
+        padding: 0;
+        margin: 40px 0px;
+    }
+    .contTexto{
+        text-align: center;
+        width: 80%;
+        padding: 0;
+        margin: 0;
+    } 
+    .contIconos{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .contIconos div{
+        margin-top: 40px;
+    }
+
+    .contenedorDerecho{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .enlaces{
+        margin: 60px 0px;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .enlaces ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .enlaces h3{
+        display: flex;
+        justify-content: center;
+    }
+    .redes{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 80px;
+    }
+    .redes div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .redes div i {
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+    .redes h3{
+        display: flex;
+        justify-content: center;
+    }
 }

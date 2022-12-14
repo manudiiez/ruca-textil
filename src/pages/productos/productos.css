@@ -36,3 +36,24 @@
 .urbano img:hover{
     transform: scale(1.12);
 }
+
+@media (max-width: 765px) {
+
+    .contenedorCategorias{
+        display: flex;
+        flex-direction: column;
+    }
+    .deportivo{
+        width: 100vw;
+    }
+    .deportivo img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .urbano{
+        width: 100%;
+        
+    }
+
+}
