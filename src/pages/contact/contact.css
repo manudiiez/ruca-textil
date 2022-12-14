@@ -1,0 +1,21 @@
+#contacto{
+    padding: 50px 0;
+}
+
+#contacto .contactoBanner{
+    width: 100%;
+    overflow: hidden;
+}
+
+#contacto .contactoBanner img{
+    width: 140%;
+    left: -20%;
+    position: relative;
+}
+
+@media (min-width: 765px) {
+    #contacto .contactoBanner img{
+        width: 100%;
+        left: 0;
+    }
+}
