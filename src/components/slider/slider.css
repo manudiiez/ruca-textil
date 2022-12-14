@@ -60,4 +60,5 @@
     align-items: center;
     position: relative;
     justify-content: center;
+    overflow: hidden;
 }

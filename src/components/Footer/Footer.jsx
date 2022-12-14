@@ -14,9 +14,9 @@ const Footer = () => {
                    comercializamos de manera Mayorista .</p>
             </div>
             <div className='contIconos'>
-                 <i class="fa-solid fa-phone"></i><span>+54 26157763924</span>
-                 <i class="fa-solid fa-location-dot"></i><span>Mendoza, Argentina</span>
-                 <i class="fa-solid fa-envelope"></i><span>metardisrl@gmail.com</span>
+                 <i className="fa-solid fa-phone"></i><span>+54 26157763924</span>
+                 <i className="fa-solid fa-location-dot"></i><span>Mendoza, Argentina</span>
+                 <i className="fa-solid fa-envelope"></i><span>metardisrl@gmail.com</span>
             </div>
         </div>
         <div className='contenedorDerecho'>
@@ -32,8 +32,8 @@ const Footer = () => {
             <div className='redes'>
                 <h3>REDES</h3>
                 <div>
-                   <i class="fa-brands fa-square-facebook"></i>
-                   <i class="fa-brands fa-instagram"></i>
+                   <i className="fa-brands fa-square-facebook"></i>
+                   <i className="fa-brands fa-instagram"></i>
                 </div>
             </div>
         </div>

@@ -2,10 +2,12 @@
     width: 100vw;
     display: flex;
 }
+.contenedorCategorias a{
+    display: inline;
+}
 .deportivo{
     width: 50%;
     overflow: hidden;
-    
 }
 .deportivo img{
     transition: 0.5s;
