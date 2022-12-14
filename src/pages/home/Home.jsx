@@ -48,7 +48,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className='homeContact'>
         <button>
           <img src={wsp} alt="" />
           <span>CONTACTAR</span>
