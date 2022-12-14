@@ -8,9 +8,13 @@
 .deportivo{
     width: 50%;
     overflow: hidden;
+   
 }
 .deportivo img{
     transition: 0.5s;
+    object-fit: cover;
+    width:100%;
+    height:100%;
   
    
 }
@@ -20,9 +24,13 @@
 .urbano{
     width: 50%;
     overflow: hidden;
+    
 }
 .urbano img{
     transition: 0.5s;
+    object-fit: cover;
+    width:100%;
+    height:100%;
 
 }
 .urbano img:hover{
