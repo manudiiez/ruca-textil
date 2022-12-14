@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Productos = () => {
+const Cards = () => {
   return (
     <>
     <div className='bannerSuperir'>
@@ -43,4 +43,4 @@ const Productos = () => {
   )
 }
 
-export default Productos
+export default Cards

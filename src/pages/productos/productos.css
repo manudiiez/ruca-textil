@@ -1,0 +1,28 @@
+.contenedorCategorias{
+    width: 100vw;
+    display: flex;
+}
+.deportivo{
+    width: 50%;
+    overflow: hidden;
+    
+}
+.deportivo img{
+    transition: 0.5s;
+  
+   
+}
+.deportivo img:hover{
+    transform: scale(1.12);
+}
+.urbano{
+    width: 50%;
+    overflow: hidden;
+}
+.urbano img{
+    transition: 0.5s;
+
+}
+.urbano img:hover{
+    transform: scale(1.12);
+}

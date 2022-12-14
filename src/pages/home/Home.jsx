@@ -2,6 +2,7 @@ import React from 'react'
 import HomeSlider from '../../components/homeSlider/HomeSlider'
 import Slider from '../../components/slider/Slider'
 import './home.css'
+import Footer from '../../components/Footer/Footer'
 import banner from '../../assets/diferenciate banner.png'
 
 const Home = () => {
