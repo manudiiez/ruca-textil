@@ -9,23 +9,27 @@ import feature3 from '../../assets/feature3.svg'
 import wsp from '../../assets/ri_whatsapp-fill.svg'
 
 // SLIDER
-import estampa1 from "../../assets/ESTAMPA1.png"
-import estampa2 from "../../assets/ESTAMPA2.png"
-import estampa3 from "../../assets/ESTAMPA3.png"
-import estampa4 from "../../assets/ESTAMPA4.png"
-import estampa5 from "../../assets/ESTAMPA5.png"
-import estampa6 from "../../assets/ESTAMPA6.png"
-import estampa7 from "../../assets/ESTAMPA7.png"
-import mokshort from "../../assets/mokshort.png"
+import e0 from "../../assets/home/e0.png"
+import e1 from "../../assets/home/e1.png"
+import e2 from "../../assets/home/e2.png"
+import e3 from "../../assets/home/e3.png"
+import e4 from "../../assets/home/e4.png"
+import e5 from "../../assets/home/e5.png"
+import e6 from "../../assets/home/e6.png"
+import e7 from "../../assets/home/e7.png"
+import e8 from "../../assets/home/e8.png"
+import mock from "../../assets/home/mock1.png"
 
 const imgs = [
-  estampa1,
-  estampa2,
-  estampa3,
-  estampa4,
-  estampa5,
-  estampa6,
-  estampa7,
+  e1,
+  e2,
+  e3,
+  e4,
+  e5,
+  e0,
+  e6,
+  e7,
+  e8
 ]
 
 const Home = () => {
@@ -37,7 +41,7 @@ const Home = () => {
           <img src={banner} alt="" />
           <p>MARCÁ LA DIFERENCIA</p>
         </div>
-        <Slider2 base={mokshort} prints={imgs} />
+        <Slider2 base={mock} prints={imgs} />
         <div className='homeDesc'>
           <p className='homeDescTitle'>FABRICAMOS INDUMENTARIA A TU MEDIDA</p>
           <p className='homeDescSubtitle'>Emprendé con un mínimo de 10 prendas, sin mínimo de talles y sin mínimo de color </p>
