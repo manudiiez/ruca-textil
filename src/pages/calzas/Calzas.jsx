@@ -6,9 +6,6 @@ import e2 from "../../assets/calzas/e2.png"
 import e3 from "../../assets/calzas/e3.png"
 import e4 from "../../assets/calzas/e4.png"
 import e5 from "../../assets/calzas/e5.png"
-import urbana from "../../assets/calzas/urbanass.png"
-import ciclista from "../../assets/calzas/RUNNINGs.png"
-import running from "../../assets/calzas/ciclistas.png"
 import imgBanner from "../../assets/calzas/calzasbanner.png"
 import mock from "../../assets/calzas/mock1.png"
 import z1 from "../../assets/calzas/urbanaXL.png"
@@ -19,7 +16,7 @@ const items = [{"img":z1 , "id":"calza1"}  , {"img":z2 , "id":"calza2"}, {"img":
 
 const prints = [e0,e1,e2,e3,e4,e5]
 
-const cGrandes = [z1 ,z2, z3]
+
 
 
 
