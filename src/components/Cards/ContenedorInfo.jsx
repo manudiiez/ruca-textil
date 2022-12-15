@@ -3,12 +3,13 @@ import "./contenedorInfo.css"
 
 
 const ContenedorInfo = ({productos}) => {
+    
 
-    const [img , setImg] = useState()
+    const [img , setImg] = useState(productos[0].img)
+     
 
     const mostarImagen = (e) =>{
-        console.log(e.target.id)
-        let seleccionado = productos.filter(prod => prod.id == e.target.id )
+        let seleccionado = productos.filter(prod => prod.id === e.target.id )
             setImg(seleccionado[0].img)
         }
     
