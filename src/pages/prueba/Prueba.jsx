@@ -1,9 +1,10 @@
 import React from 'react'
-import Tops from '../tops/Tops'
+import Buzos from '../buzos/Buzos'
+
 
 const Prueba = () => {
   return (
-    <div><Tops/></div>
+    <div><Buzos/></div>
   )
 }
 
