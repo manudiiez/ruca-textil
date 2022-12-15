@@ -1,13 +1,12 @@
 import React from 'react'
-import banner from '../../assets/banner contacto.png'
+import bannerimg from '../../assets/banner contacto.png'
+import Banner from '../../components/banner/Banner'
 import './contact.css'
 
 const Contact = () => {
     return (
         <div id='contacto'>
-            <div className='contactoBanner'>
-                <img src={banner} alt="" />
-            </div>
+            <Banner image={bannerimg} />
             <div className="contactoContainer">
                 <input type="text" placeholder='Nombre' />
                 <input type="text" placeholder='Email' />

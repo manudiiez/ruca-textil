@@ -1,0 +1,18 @@
+#indumentaria{
+    padding-top: 30px;
+}
+
+#indumentaria .indumentariaHeader p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+
+
+@media (min-width: 765px) {
+    #indumentaria .indumentariaHeader p{
+        font-size: 24px;
+        margin-bottom: 36px;
+    }
+}
