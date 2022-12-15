@@ -1,13 +1,26 @@
-import React from 'react'
-import ImgProductos from './ImgProductos'
+import React, { useState } from 'react'
 import "./contenedorInfo.css"
-
+import i1 from "../../assets/calzas/urbanaXL.png"
+import i2 from "../../assets/calzas/RUNNINGxl.png"
+import i3 from "../../assets/calzas/ciclistaxl.png"
 const ContenedorInfo = ({productos}) => {
+
+    const [imagen ,setImagen] = useState(i1)
+
+    const seleccionar = (e)=>{
+        if(e.target.id == "/static/media/urbanass.06040a71315651cd3185.png"){
+           setImagen(i1)
+        }else if (e.target.id == "/static/media/RUNNINGs.9b0110ac7f4890f24ca5.png"){
+            setImagen(i2)
+        }else{
+            setImagen(i3)
+        }
+    }
    
   return (
     <div className="contenedorInformacion">
         <div className='contenedorInfoImagen'>
-            <img src={productos[0]} alt="" />
+           <img src={imagen} alt="" />
         </div>
         <div className='contenedorInfoInformacion'>
             <div className='contenedorInfoInformacionControl'>
@@ -19,7 +32,15 @@ const ContenedorInfo = ({productos}) => {
                 <li>Impresión en sublimación, serigrafía, bordado o estampado</li>
             </ul>
             <div className='contenedorInfoImagenes'>
-                <ImgProductos productos={productos} />
+            <>
+             {                
+              productos.map(prod =>(                
+                <div key={prod}>
+                    <img id={prod} onClick={seleccionar} src={prod} alt="" />
+                </div>
+               ))
+             }     
+             </>
             </div>
             <button className='contenedorInfoBoton'>
                 Realizar Pedido
