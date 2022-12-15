@@ -1,7 +1,8 @@
 import React from 'react'
 import ImgProductos from './ImgProductos'
 
-const ContenedorInfo = (productos) => {
+const ContenedorInfo = ({productos}) => {
+    console.log(productos)
   return (
     <div className="contenedorInfo">
         <div className='contenedorInfoImagen'>

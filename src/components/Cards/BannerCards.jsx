@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BannerCards = (imgBanner) => {
+const BannerCards = ({imgBanner}) => {
   return (
     <div>
         <img src={imgBanner} alt="descripcion producto" />

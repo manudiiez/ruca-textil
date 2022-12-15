@@ -1,8 +1,10 @@
 import React from 'react'
+import Calzas from '../calzas/Calzas'
+import "./urbano.css"
 
 const Urbano = () => {
   return (
-    <div>Urbano</div>
+    <div><Calzas /></div>
   )
 }
 

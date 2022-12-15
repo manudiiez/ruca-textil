@@ -1,19 +1,20 @@
 import React from 'react'
 
-const ImgProductos = (productos) => {
-
-
+const ImgProductos = ({productos}) => {
+    console.log(productos)
+    
   return (
 
-    <div>
-        {
+    <>
+     {
             productos.map(prod =>(
                 <div>
                     <img src={prod} alt="" />
                 </div>
             ))
         }
-    </div>
+    
+    </>
 
   )
 }
