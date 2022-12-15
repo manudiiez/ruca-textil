@@ -1,15 +1,19 @@
 import React from 'react'
 
 const ImgProductos = ({productos}) => {
-    console.log(productos)
+
+
+    const saludo = ()=>{
+      console.log("hola me tocaste")
+    }
     
   return (
 
     <>
      {
             productos.map(prod =>(
-                <div>
-                    <img src={prod} alt="" />
+                <div key={prod}>
+                    <img onClick={saludo} src={prod} alt="" />
                 </div>
             ))
         }

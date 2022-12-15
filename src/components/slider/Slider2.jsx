@@ -11,7 +11,7 @@ const Slider2 = ({ base, prints }) => {
         <motion.div className='slider' drag="x" dragConstraints={{ right: 820, left: -820 }}>
           {
             prints.map(img => (
-              <motion.div className='item'>
+              <motion.div key={img} className='item'>
                 <img src={img} alt="" />
               </motion.div>
             ))
