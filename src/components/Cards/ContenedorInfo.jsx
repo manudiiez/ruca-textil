@@ -1,14 +1,17 @@
 import React from 'react'
 import ImgProductos from './ImgProductos'
+import "./contenedorInfo.css"
 
 const ContenedorInfo = ({productos}) => {
-    console.log(productos)
+   
   return (
-    <div className="contenedorInfo">
+    <div className="contenedorInformacion">
         <div className='contenedorInfoImagen'>
-
+            <img src={productos[0]} alt="" />
         </div>
         <div className='contenedorInfoInformacion'>
+            <div className='contenedorInfoInformacionControl'>
+            <h2>CARACTERISTICAS</h2>
             <ul>
                 <li>Sin límite de colores y diseños</li>
                 <li>Talles desde XS hasta 10XL Ver tabla</li>
@@ -21,6 +24,7 @@ const ContenedorInfo = ({productos}) => {
             <button className='contenedorInfoBoton'>
                 Realizar Pedido
             </button>
+            </div>
         </div>
     </div>
   )

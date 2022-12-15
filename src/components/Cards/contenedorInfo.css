@@ -1,0 +1,69 @@
+.contenedorInformacion{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    
+}
+.contenedorInformacion h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contenedorInfoImagen{
+    width: 60%;
+    
+}
+
+.contenedorInfoImagenes{
+    display: flex;
+}
+
+.contenedorInfoInformacion{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.contenedorInfoInformacionControl{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+
+}
+.contenedorInfoInformacionControl ul{
+    width: 60%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.contenedorInfoBoton{
+    width: 100%;
+    margin-top: 20px;
+   
+    max-width: 455px;
+    border-radius: 40px;
+    border: none;
+    padding: 14px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #000;
+    color: #fff;
+    transition: transform .3s ease-in-out;
+}
+
+
+
+.contenedorInfoBoton:hover{
+    transform: scale(1.05);
+}
+
+
+.contenedorInfoBoton{
+    font-size: 16px;
+}

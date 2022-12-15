@@ -1,0 +1,48 @@
+.bannerSuperior{
+    margin-top: 20px;
+}
+
+.contenedorInfo{
+    width: 100vw;
+    height: 500px;
+ 
+}
+.bannerMedio{
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.contenedorBotonInferior button{
+    width: 100%;
+    max-width: 355px;
+    margin: auto;
+    border-radius: 40px;
+    border: none;
+    padding: 14px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #000;
+    color: #fff;
+    transition: transform .3s ease-in-out;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+
+
+.contenedorBotonInferior button:hover{
+    transform: scale(1.05);
+}
+
+
+.contenedorBotonInferior button{
+    font-size: 16px;
+}
