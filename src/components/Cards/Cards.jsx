@@ -1,36 +1,19 @@
 import React from 'react'
+import BannerCards from './BannerCards'
+import ContenedorInfo from './ContenedorInfo'
 
-const Cards = () => {
+const Cards = (imgBanner , productos) => {
   return (
     <>
     <div className='bannerSuperir'>
-        <img src="" alt="" />
+        <BannerCards imgBanner={imgBanner} />
     </div>
     <div className="contenedorInfo">
-        <div className='contenedorInfoImagen'>
-
-        </div>
-        <div className='contenedorInfoInformacion'>
-          
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <div className='contenedorInfoImagenes'>
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-            </div>
-            <button className='contenedorInfoBoton'>
-                Realizar Pedido
-            </button>
-        </div>
+        <ContenedorInfo productos={productos} />       
     </div>
     <div className='bannerMedio'>
-       
+        <img src="" alt="" />
+        <h2></h2>       
     </div>
     <div className='carrucelImagenes'>
         carrucel
