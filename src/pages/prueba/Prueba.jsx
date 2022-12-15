@@ -1,10 +1,10 @@
-import React from 'react'
-import Buzos from '../buzos/Buzos'
+
+import Pantalon from '../pantalones/Pantalones'
 
 
 const Prueba = () => {
   return (
-    <div><Buzos/></div>
+    <div><Pantalon/></div>
   )
 }
 
