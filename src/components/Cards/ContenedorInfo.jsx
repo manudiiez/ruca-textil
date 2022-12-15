@@ -1,26 +1,22 @@
-import React, { useState } from 'react'
+import { useState } from "react"
 import "./contenedorInfo.css"
-import i1 from "../../assets/calzas/urbanaXL.png"
-import i2 from "../../assets/calzas/RUNNINGxl.png"
-import i3 from "../../assets/calzas/ciclistaxl.png"
+
+
 const ContenedorInfo = ({productos}) => {
 
-    const [imagen ,setImagen] = useState(i1)
+    const [img , setImg] = useState()
 
-    const seleccionar = (e)=>{
-        if(e.target.id == "/static/media/urbanass.06040a71315651cd3185.png"){
-           setImagen(i1)
-        }else if (e.target.id == "/static/media/RUNNINGs.9b0110ac7f4890f24ca5.png"){
-            setImagen(i2)
-        }else{
-            setImagen(i3)
+    const mostarImagen = (e) =>{
+        console.log(e.target.id)
+        let seleccionado = productos.filter(prod => prod.id == e.target.id )
+            setImg(seleccionado[0].img)
         }
-    }
-   
+    
+
   return (
     <div className="contenedorInformacion">
         <div className='contenedorInfoImagen'>
-           <img src={imagen} alt="" />
+           <img src={img} alt="" />
         </div>
         <div className='contenedorInfoInformacion'>
             <div className='contenedorInfoInformacionControl'>
@@ -34,11 +30,12 @@ const ContenedorInfo = ({productos}) => {
             <div className='contenedorInfoImagenes'>
             <>
              {                
-              productos.map(prod =>(                
-                <div key={prod}>
-                    <img id={prod} onClick={seleccionar} src={prod} alt="" />
+              productos.map(prod =>(               
+                <div >
+                    <img onClick={mostarImagen} id={prod.id}  src={prod.img} alt="" />
                 </div>
                ))
+              
              }     
              </>
             </div>

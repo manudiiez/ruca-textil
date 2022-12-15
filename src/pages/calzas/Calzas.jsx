@@ -11,10 +11,16 @@ import ciclista from "../../assets/calzas/RUNNINGs.png"
 import running from "../../assets/calzas/ciclistas.png"
 import imgBanner from "../../assets/calzas/calzasbanner.png"
 import mock from "../../assets/calzas/mock1.png"
+import z1 from "../../assets/calzas/urbanaXL.png"
+import z2 from  "../../assets/calzas/runningxl.png"
+import z3 from "../../assets/calzas/ciclistaxl.png"
 
+const items = [{"img":z1 , "id":"calza1"}  , {"img":z2 , "id":"calza2"}, {"img":z3 , "id":"calza3"}]
 
-const items = [urbana ,ciclista , running]
 const prints = [e0,e1,e2,e3,e4,e5]
+
+const cGrandes = [z1 ,z2, z3]
+
 
 
 const Calzas = () => {

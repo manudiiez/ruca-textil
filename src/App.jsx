@@ -9,7 +9,6 @@ import Home from './pages/home/Home';
 import Item from './pages/item/Item';
 import Nosotros from './pages/nosotros/Nosotros';
 import Productos from './pages/productos/Productos';
-import Urbano from './pages/urbano/Urbano';
 import sport1 from './assets/Mallas.png'
 import sport2 from './assets/Remeras deportivas.png'
 import sport3 from './assets/Pantalones.png'
@@ -21,6 +20,7 @@ import urban3 from './assets/Remeras urbanas.png'
 import urban4 from './assets/Tops urbanos.png'
 import sportBanner from './assets/bannerdeportivo.png'
 import urbanBanner from './assets/bannerurbano.png'
+import Prueba from './pages/prueba/Prueba';
 
 
 const dataSport = [
@@ -128,10 +128,10 @@ function App() {
       <Route path='/productos' element={<Productos/>} /> 
       <Route path='/nosotros' element={<Nosotros/>} /> 
       <Route path='/contacto' element={<Contact/>} /> 
-      <Route path='/productos/urbano2' element={<Urbano/>} /> 
       <Route path='/productos/deportivo' element={<Indumentaria data={dataSport} title='PRODUCTOS > DEPORTIVOS' banner={sportBanner}/>} /> 
       <Route path='/productos/urbano' element={<Indumentaria data={dataUrban} title='PRODUCTOS > URBANOS' banner={urbanBanner}/>} /> 
       <Route path='/productos/:id' element={<Item/>} /> 
+      <Route path='/productos/prueba' element={<Prueba/>} /> 
     </Routes>
     <Footer/> 
    </>
