@@ -13,7 +13,7 @@ import mock from "../../assets/mallas/mock1.png"
 import z1 from "../../assets/mallas/patinxl.png"
 
 
-const items = [{"img":z1 , "id":"malla1"}  ]
+const items = [{"img":z1 , "id":"malla1" , "descripcion":"PATIN"}  ]
 
 const prints = [e0,e1,e2,e3,e4,e5,e6]
 

@@ -1,5 +1,6 @@
 import { useState } from "react"
 import "./contenedorInfo.css"
+import wsp from '../../assets/ri_whatsapp-fill.svg'
 
 
 const ContenedorInfo = ({productos}) => {
@@ -32,8 +33,8 @@ const ContenedorInfo = ({productos}) => {
             <>
              {                
               productos.map(prod =>(               
-                <div >
-                    <img onClick={mostarImagen} id={prod.id}  src={prod.img} alt="" />
+                <div className="contProductos" >
+                    <img onClick={mostarImagen} id={prod.id}  src={prod.img} alt="" /><span>{prod.descripcion}</span>
                 </div>
                ))
               
@@ -41,7 +42,8 @@ const ContenedorInfo = ({productos}) => {
              </>
             </div>
             <button className='contenedorInfoBoton'>
-                Realizar Pedido
+                <span><img src={wsp} alt="" /></span>
+                REALIZAR UN PEDIDO
             </button>
             </div>
         </div>

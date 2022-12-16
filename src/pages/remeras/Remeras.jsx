@@ -14,7 +14,11 @@ import z2 from  "../../assets/remeras/Remerafutbol.png"
 import z3 from "../../assets/remeras/Remerarunning.png"
 import z4 from "../../assets/remeras/Remeraurbana.png"
 
-const items = [{"img":z1 , "id":"remera1"}  , {"img":z2 , "id":"remera2"}, {"img":z3 , "id":"remera3"}, {"img":z4 , "id":"remera3"}]
+const items = [
+  {"img":z1 , "id":"remera1","descripcion":"CICLISMO"} , 
+  {"img":z2 , "id":"remera2" , "descripcion":"FUTBOL"},
+  {"img":z3 , "id":"remera3","descripcion":"RUNNING"},
+  {"img":z4 , "id":"remera3","descripcion":"URBANA"}]
 
 const prints = [e0,e1,e2,e3,e4,e5]
 

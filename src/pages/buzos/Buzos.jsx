@@ -12,7 +12,7 @@ import z1 from "../../assets/buzos/buzoxl.png"
 import z2 from  "../../assets/buzos/camperaxl.png"
 
 
-const items = [{"img":z1 , "id":"buzo1"}  , {"img":z2 , "id":"buzo2"}]
+const items = [{"img":z1 , "id":"buzo1" , "descripcion":"BUZOS"}  , {"img":z2 , "id":"buzo2","descripcion":"CAMPERAS"}]
 
 const prints = [e0,e1,e2,e3,e4,e5]
 

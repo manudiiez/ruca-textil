@@ -72,3 +72,13 @@
 .contenedorInfoBoton{
     font-size: 16px;
 }
+
+.contProductos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contProductos span{
+    margin-top: 5px;
+    font-weight: bold;
+}

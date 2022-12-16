@@ -12,9 +12,12 @@ import z2 from "../../assets/tops/topdeportivoxl.png"
 import imgBanner from "../../assets/tops/a2.png"
 import mock from "../../assets/tops/a1.png"
 
-const items = [{"img":z1 , "id":"calza1"}  , {"img":z2 , "id":"calza2"}]
+const items = [{"img":z1 , "id":"calza1","descripcion":"URBANO"},
+               {"img":z2 , "id":"calza2", "descripcion":"DEPORTIVO"}]
 
 const prints = [e0,e1,e2,e3,e4,e5,e6]
+
+
 
 const Tops = () => {
 
