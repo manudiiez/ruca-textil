@@ -1,8 +1,16 @@
 
 .clasific{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 2vw;
     width: 100vw;
     display: flex;
     justify-content: center;
+}
+.contimg{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.contimg img{
+    width: 100vw;
 }

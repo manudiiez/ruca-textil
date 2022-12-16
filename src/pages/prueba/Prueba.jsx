@@ -9,7 +9,7 @@ import Tops from '../tops/Tops'
 
 const Prueba = () => {
   return (
-    <div><Calzas/></div>
+    <div><Buzos/></div>
   )
 }
 

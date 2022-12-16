@@ -1,7 +1,7 @@
 .contenedorInformacion{
     display: flex;
     width: 100vw;
-    height: 100%;
+    height: 100%
     
 }
 .contenedorInformacion h2{
@@ -60,6 +60,7 @@
     background-color: #000;
     color: #fff;
     transition: transform .3s ease-in-out;
+    cursor: pointer;
 }
 
 
@@ -81,4 +82,31 @@
 .contProductos span{
     margin-top: 5px;
     font-weight: bold;
+}
+
+@media (max-width:765px) {
+
+    .contenedorInformacion{
+        display: flex;
+        flex-direction: column;
+      
+      
+    }
+    .contenedorInfoInformacion{
+        margin-top: -80px;
+    }
+    .contenedorInfoImagen{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedorInfoInformacionControl{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+
+    }
 }
