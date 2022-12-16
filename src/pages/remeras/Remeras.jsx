@@ -22,9 +22,11 @@ const items = [
 
 const prints = [e0,e1,e2,e3,e4,e5]
 
+const im = [{src:imgBanner,"descripcion":"PRODUCTOS > REMERAS"}]
+
 const Remeras = () => {
   return (
-    <Cards productos={items} imgBanner={imgBanner} base={mock} prints={prints}  />
+    <Cards productos={items} imgBanner={im} base={mock} prints={prints}  />
   )
 }
 

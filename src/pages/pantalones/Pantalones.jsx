@@ -17,9 +17,11 @@ const items = [{"img":z1 , "id":"pantalon1" , "descripcion":"FUTBOL"}  ]
 
 const prints = [e0,e1,e2,e3,e4,e5,e6]
 
+const im = [{src:imgBanner,"descripcion":"PRODUCTOS >PANTALONES"}]
+
 const Pantalon =  () => {
   return (
-    <Cards productos={items} imgBanner={imgBanner} base={mock} prints={prints}  />
+    <Cards productos={items} imgBanner={im} base={mock} prints={prints}  />
   )
 }
 

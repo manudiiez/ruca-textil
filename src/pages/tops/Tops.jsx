@@ -17,13 +17,13 @@ const items = [{"img":z1 , "id":"calza1","descripcion":"URBANO"},
 
 const prints = [e0,e1,e2,e3,e4,e5,e6]
 
-
+const im = [{src:imgBanner,"descripcion":"PRODUCTOS > TOPS"}]
 
 const Tops = () => {
 
   return (
 
-    <Cards productos={items} imgBanner={imgBanner} base={mock} prints={prints}  />
+    <Cards productos={items} imgBanner={im} base={mock} prints={prints}  />
 
   )
 }
