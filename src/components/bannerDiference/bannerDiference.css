@@ -1,0 +1,28 @@
+#bannerDiference{
+
+}
+
+#bannerDiference{
+    text-align: center;
+}
+
+#bannerDiference img{
+    width: 100%;
+    max-width: 290px;
+}
+#bannerDiference p{
+    font-weight: 700; 
+    font-size: 24px;
+}
+
+
+@media (min-width: 765px) {
+    #bannerDiference img{
+        max-width: 540px;
+    }
+
+    #bannerDiference p{
+        font-size: 64px;
+    }
+
+}

@@ -41,7 +41,7 @@ const Home = () => {
           <img src={banner} alt="" />
           <p>MARCÁ LA DIFERENCIA</p>
         </div>
-        <Slider2 base={mock} prints={imgs} />
+        <Slider2 base={mock} prints={imgs} right={1120} left={-1120} />
         <div className='homeDesc'>
           <p className='homeDescTitle'>FABRICAMOS INDUMENTARIA A TU MEDIDA</p>
           <p className='homeDescSubtitle'>Emprendé con un mínimo de 10 prendas, sin mínimo de talles y sin mínimo de color </p>

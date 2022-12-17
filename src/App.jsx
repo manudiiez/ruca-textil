@@ -9,113 +9,12 @@ import Home from './pages/home/Home';
 import Item from './pages/item/Item';
 import Nosotros from './pages/nosotros/Nosotros';
 import Productos from './pages/productos/Productos';
-import sport1 from './assets/Mallas.png'
-import sport2 from './assets/Remeras deportivas.png'
-import sport3 from './assets/Pantalones.png'
-import sport4 from './assets/Tops.png'
-import sport5 from './assets/Calzas.png'
-import urban1 from './assets/Calzas urbanas.png'
-import urban2 from './assets/camperas y buzos.png'
-import urban3 from './assets/Remeras urbanas.png'
-import urban4 from './assets/Tops urbanos.png'
 import sportBanner from './assets/bannerdeportivo.png'
 import urbanBanner from './assets/bannerurbano.png'
 import Prueba from './pages/prueba/Prueba';
+import { dataSport, dataUrban } from './data/products.js';
+import { productsList } from './data/products.js';
 
-
-const dataSport = [
-  {
-    src: sport1,
-    url: 'mallas'
-  },
-  {
-    src: sport2,
-    url: 'remeras'
-  },
-  {
-    src: sport3,
-    url: 'pantalones'
-  },
-  {
-    src: sport4,
-    url: 'tops'
-  },
-  {
-    src: sport5,
-    url: 'calzas'
-  },
-  {
-    src: sport1,
-    url: 'mallas'
-  },
-  {
-    src: sport2,
-    url: 'remeras'
-  },
-  {
-    src: sport3,
-    url: 'pantalones'
-  },
-  {
-    src: sport4,
-    url: 'tops'
-  },
-  {
-    src: sport5,
-    url: 'calzas'
-  },
-  {
-    src: sport1,
-    url: 'mallas'
-  }
-]
-
-const dataUrban = [
-  {
-    src: urban1,
-    url: 'calzas'
-  },
-  {
-    src: urban2,
-    url: 'camperas y buzos'
-  },
-  {
-    src: urban3,
-    url: 'remeras'
-  },
-  {
-    src: urban4,
-    url: 'tops'
-  },
-  {
-    src: urban1,
-    url: 'calzas'
-  },
-  {
-    src: urban2,
-    url: 'camperas y buzos'
-  },
-  {
-    src: urban3,
-    url: 'remeras'
-  },
-  {
-    src: urban4,
-    url: 'tops'
-  },
-  {
-    src: urban1,
-    url: 'calzas'
-  },
-  {
-    src: urban2,
-    url: 'camperas y buzos'
-  },
-  {
-    src: urban3,
-    url: 'remeras'
-  },
-]
 
 function App() {
   return (
@@ -128,9 +27,24 @@ function App() {
       <Route path='/productos' element={<Productos/>} /> 
       <Route path='/nosotros' element={<Nosotros/>} /> 
       <Route path='/contacto' element={<Contact/>} /> 
-      <Route path='/productos/deportivo' element={<Indumentaria data={dataSport} title='PRODUCTOS > DEPORTIVOS' banner={sportBanner}/>} /> 
-      <Route path='/productos/urbano' element={<Indumentaria data={dataUrban} title='PRODUCTOS > URBANOS' banner={urbanBanner}/>} /> 
-      <Route path='/productos/:id' element={<Item/>} /> 
+      <Route path='/productos/deportivo' element={<Indumentaria data={dataSport} title='PRODUCTOS > DEPORTIVOS' banner={sportBanner} category='deportivo'/>} /> 
+      <Route path='/productos/urbano' element={<Indumentaria data={dataUrban} title='PRODUCTOS > URBANOS' banner={urbanBanner} category='urbano' />} /> 
+      <Route path='/productos/0' element={<Item producto={productsList[0]} right={840} left={-840}/>} /> 
+      <Route path='/productos/1' element={<Item producto={productsList[1]} right={840} left={-840}/>} /> 
+      <Route path='/productos/2' element={<Item producto={productsList[2]} right={840} left={-840}/>} /> 
+      <Route path='/productos/3' element={<Item producto={productsList[3]} right={840} left={-840}/>} /> 
+      <Route path='/productos/4' element={<Item producto={productsList[4]} right={700} left={-700}/>} /> 
+      <Route path='/productos/5' element={<Item producto={productsList[5]} right={700} left={-700}/>} /> 
+      <Route path='/productos/6' element={<Item producto={productsList[6]} right={840} left={-840}/>} /> 
+      <Route path='/productos/7' element={<Item producto={productsList[7]} right={840} left={-840}/>} /> 
+      <Route path='/productos/8' element={<Item producto={productsList[8]} right={840} left={-840}/>} /> 
+      {/* <Route path='/productos/:category/1' element={<Mallas/>} /> 
+      <Route path='/productos/:category/2' element={<Remeras/>} /> 
+      <Route path='/productos/:category/3' element={<Pantalon/>} /> 
+      <Route path='/productos/:category/4' element={<Tops/>} /> 
+      <Route path='/productos/:category/5' element={<Calzas/>} />  */}
+      
+      {/* <Route path='/productos' element={<ItemRoutes/>} />  */}
       <Route path='/productos/prueba' element={<Prueba/>} /> 
     </Routes>
     <Footer/> 

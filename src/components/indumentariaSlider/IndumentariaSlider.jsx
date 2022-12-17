@@ -3,12 +3,13 @@ import { motion } from 'framer-motion'
 import './indumentariaSlider.css'
 import { useNavigate } from 'react-router-dom'
 
-const IndumentariaSlider = ({ prints }) => {
+const IndumentariaSlider = ({ prints, category }) => {
 
     const navigate = useNavigate()
 
-    const open = (url) => {
-        navigate('/productos/'+url)
+    const open = (id) => {
+        // navigate('/productos/'+id)
+        navigate(`/productos/${id}`)
     }
 
     return (

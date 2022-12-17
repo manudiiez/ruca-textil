@@ -2,13 +2,13 @@ import React from 'react'
 import "./slider2.css"
  import { motion } from 'framer-motion'
 
-const Slider2 = ({ base, prints }) => {
+const Slider2 = ({ base, prints, right, left }) => {
   return (
     <div id='sliderStamp'>
       <div className='oval'></div>
       <motion.div className='sliderContainer'>
         <img className='a1' src={base} alt="" />
-        <motion.div className='slider' drag="x" dragConstraints={{ right: 820, left: -820 }}>
+        <motion.div className='slider' drag="x" dragConstraints={{ right: right, left: left }}>
           {
             prints.map(img => (
               <motion.div key={img} className='item'>
