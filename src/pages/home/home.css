@@ -114,6 +114,11 @@
     color: #fff;
     transition: transform .3s ease-in-out;
 }
+#home .homeContact a{
+    width: 240px;
+    color: #fff;
+    text-decoration: none;
+}
 
 #home .homeContact button:hover{
     transform: scale(1.05);
@@ -155,6 +160,11 @@
         height: 380px;
     }
 
+    #home .homeContact a{
+        color: #fff;
+        text-decoration: none;
+        width: 355px;
+    }
     #home .homeContact button span{
         font-size: 24px;
     }

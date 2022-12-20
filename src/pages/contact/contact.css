@@ -44,6 +44,11 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
+}
+#contacto .contactoContainer a{
+    text-decoration: none;
+    color: #fff;
 }
 #contacto .contactoContainer p{
     margin-bottom: 25px;
@@ -66,5 +71,10 @@
     #contacto .contactoContainer button{
         font-size: 24px;
         font-weight: 700;
+        cursor: pointer;
+    }
+    #contacto .contactoContainer a{
+        text-decoration: none;
+        color: #fff;
     }
 }

@@ -142,7 +142,7 @@ export const productsList = [
             },
             {
                 sm: require('../assets/calzas/RUNNINGs.png'),
-                xl: require('../assets/calzas/RUNNINGxl.png'),
+                xl: require('../assets/calzas/runningxl.png'),
                 title: 'running'
             },
         ],
@@ -177,7 +177,7 @@ export const productsList = [
             },
             {
                 sm: require('../assets/calzas/RUNNINGs.png'),
-                xl: require('../assets/calzas/RUNNINGxl.png'),
+                xl: require('../assets/calzas/runningxl.png'),
                 title: 'running'
             },
         ],

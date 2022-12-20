@@ -11,12 +11,17 @@ const Contact = () => {
                 <input type="text" placeholder='Nombre' />
                 <input type="text" placeholder='Email' />
                 <textarea placeholder='Mensaje'></textarea>
-                <button>ENVIAR</button>
+                <a href="https://api.whatsapp.com/send?phone=+5492615660798&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20esta%20indumentaria:">
+                  <button>ENVIAR</button>
+                </a>
                 <p>o</p>
-                <button>
-                    <i className="fa-brands fa-whatsapp"></i>
-                    <span>CONTACTAR POR WHATSAPP</span>
-                </button>
+                <a href="https://api.whatsapp.com/send?phone=+5492615660798&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20esta%20indumentaria:">
+                   <button>
+                       <i className="fa-brands fa-whatsapp"></i>
+                       <span>CONTACTAR POR WHATSAPP</span>
+                   </button>
+                </a>
+                
             </div>
         </div>
     )

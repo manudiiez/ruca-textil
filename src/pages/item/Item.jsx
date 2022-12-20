@@ -53,7 +53,7 @@ const Item = ({producto, right, left}) => {
     <div id='item'>
       <Banner image={producto.banner} />
       <p className='title'>
-        {producto.category} > {producto.name}
+        {producto.category} {">"} {producto.name}
       </p>
       <div className="itemContainer">
         <div className="itemContainerImg">
@@ -95,10 +95,12 @@ const Item = ({producto, right, left}) => {
               ))
             }
           </div>
+          <a href="https://api.whatsapp.com/send?phone=+5492615660798&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20esta%20indumentaria:">
           <button>
             <img src={wsp} alt="" />
             <span>REALIZAR UN PEDIDO</span>
           </button>
+          </a>          
         </div>
       </div>
       <div className='itemBanner'>
@@ -106,7 +108,9 @@ const Item = ({producto, right, left}) => {
       </div>
       <Slider2 base={producto.mockup} prints={producto.prints} right={right} left={left} />
       <div className="buttonContainer">
-        <button className='buttonConsultar'>CONSULTAR MÀS DISEÑOS</button>
+        <a href="https://api.whatsapp.com/send?phone=+5492615660798&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20esta%20indumentaria:">
+           <button className='buttonConsultar'>CONSULTAR MÀS DISEÑOS</button>
+        </a>        
       </div>
     </div>
   )

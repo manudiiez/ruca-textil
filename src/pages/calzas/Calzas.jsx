@@ -9,7 +9,7 @@ import e5 from "../../assets/calzas/e5.png"
 import imgBanner from "../../assets/calzas/calzasbanner.png"
 import mock from "../../assets/calzas/mock1.png"
 import z1 from "../../assets/calzas/urbanaXL.png"
-import z2 from  "../../assets/calzas/RUNNINGxl.png"
+import z2 from  "../../assets/calzas/runningxl.png"
 import z3 from "../../assets/calzas/ciclistaxl.png"
 
 const items = [{"img":z1 , "id":"calza1","descripcion":"URBANA"}  , {"img":z2 , "id":"calza2" , "descripcion":"RUNNING"}, {"img":z3 , "id":"calza3" ,"descripcion":"CICLISMO"}]
