@@ -1,11 +1,18 @@
 .footerContainer{
     background-color: black;
+    
+}
+
+.footerMaxContainer{
     width: 100vw;
+    max-width: 1200px;
+    margin: auto;
     height: 348px;
     color: white;
     display: flex;
     font-weight: 200;
 }
+
 .contenedorIzquierdo{
     width: 55%;
     height: 100%;
@@ -74,6 +81,11 @@
     .footerContainer{
        flex-direction: column;
        height: auto;
+    }
+
+    .footerMaxContainer{
+        flex-direction: column;
+        height: auto;
     }
     .contenedorIzquierdo{
         width: 100%;

@@ -1,0 +1,39 @@
+#table{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#table h1{
+    font-size: 24px;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#table div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#table div p {
+    font-size: 18px;
+}
+#table img{
+    width: 100%;
+    max-width: 600px;
+    margin: 30px 0;
+}
+
+@media (min-width: 765px) {
+    #table h1{
+        font-size: 44px;
+    }
+    #table div p {
+        font-size: 28px;
+    }
+}

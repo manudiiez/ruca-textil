@@ -103,6 +103,12 @@
     font-size: 12px;
     font-weight: 400;
 }
+#item .itemContainer .itemContainerBody ul li p{
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 #item .itemContainer .itemContainerBody button {
     margin-top: 30px;
@@ -171,6 +177,9 @@
     }
 
     #item .itemContainer .itemContainerBody ul li {
+        font-size: 20px;
+    }
+    #item .itemContainer .itemContainerBody ul li p{
         font-size: 20px;
     }
 

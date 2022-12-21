@@ -54,7 +54,8 @@ export const productsList = [
             },
         ],
         fabrics: 'Lycras, Dryfit y telas técnicas',
-        tabla: false,
+        tabla: true,
+        tablasrc: require('../assets/remeras/Tabla talles remeras.png'),
         mockup: require('../assets/remeras/mock1.png'),
         prints: [
             require('../assets/remeras/e0.png'),
@@ -71,7 +72,7 @@ export const productsList = [
         id: 2,
         banner: require('../assets/pantalones/pantalones banner.png'),
         category: 'productos',
-        name: 'remeras',
+        name: 'pantalones',
         imgs: [
             {
                 sm: require('../assets/pantalones/pantalon fútbol miniatura.png'),
@@ -97,7 +98,7 @@ export const productsList = [
         id: 3,
         banner: require('../assets/tops/a2.png'),
         category: 'productos',
-        name: 'remeras',
+        name: 'tops',
         imgs: [
             {
                 sm: require('../assets/tops/top deportivo s.png'),
@@ -142,12 +143,13 @@ export const productsList = [
             },
             {
                 sm: require('../assets/calzas/RUNNINGs.png'),
-                xl: require('../assets/calzas/runningxl.png'),
+                xl: require('../assets/calzas/RUNNINGxl.png'),
                 title: 'running'
             },
         ],
         fabrics: 'Lycras, Dryfit y telas técnicas',
-        tabla: '../assets/calzas/Tabla talles leggins.png',
+        tabla: true,
+        tablasrc: require('../assets/calzas/Tabla talles leggins.png'),
         mockup: require('../assets/calzas/Calza Mockup altura cambiada.png'),
         prints: [
             require('../assets/calzas/e0.png'),
@@ -177,12 +179,13 @@ export const productsList = [
             },
             {
                 sm: require('../assets/calzas/RUNNINGs.png'),
-                xl: require('../assets/calzas/runningxl.png'),
+                xl: require('../assets/calzas/RUNNINGxl.png'),
                 title: 'running'
             },
         ],
         fabrics: 'Lycras, Dryfit y telas técnicas',
-        tabla: '../assets/calzas/Tabla talles leggins.png',
+        tabla: true,
+        tablasrc: require('../assets/calzas/Tabla talles leggins.png'),
         mockup: require('../assets/calzas/Calza Mockup altura cambiada.png'),
         prints: [
             require('../assets/calzas/e0.png'),
@@ -198,7 +201,7 @@ export const productsList = [
         id: 6,
         banner: require('../assets/buzos/camperas banner.png'),
         category: 'productos',
-        name: 'calzas',
+        name: 'buzos',
         imgs: [
             {
                 sm: require('../assets/buzos/buzo s.png'),
@@ -253,7 +256,8 @@ export const productsList = [
             },
         ],
         fabrics: 'Lycras, Dryfit y telas técnicas',
-        tabla: false,
+        tabla: true,
+        tablasrc: require('../assets/remeras/Tabla talles remeras.png'),
         mockup: require('../assets/remeras/mock1.png'),
         prints: [
             require('../assets/remeras/e0.png'),
@@ -270,7 +274,7 @@ export const productsList = [
         id: 8,
         banner: require('../assets/tops/a2.png'),
         category: 'productos',
-        name: 'remeras',
+        name: 'tops',
         imgs: [
             {
                 sm: require('../assets/tops/top urbano s.png'),

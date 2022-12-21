@@ -4,49 +4,19 @@ import BannerDiference from '../../components/bannerDiference/BannerDiference';
 import Slider2 from '../../components/slider/Slider2';
 import './item.css'
 import wsp from '../../assets/ri_whatsapp-fill.svg'
-
-// const producto = {
-//   id: 1,
-//   banner: require('../../assets/calzas/calzasbanner.png'),
-//   category: 'productos',
-//   name: 'calzas',
-//   imgs: [
-//     {
-//       sm: require('../../assets/calzas/urbanass.png'),
-//       xl: require('../../assets/calzas/urbanaXL.png'),
-//       title: 'urbanas'
-//     },
-//     {
-//       sm: require('../../assets/calzas/ciclistas.png'),
-//       xl: require('../../assets/calzas/ciclistaxl.png'),
-//       title: 'ciclismo'
-//     },
-//     {
-//       sm: require('../../assets/calzas/RUNNINGs.png'),
-//       xl: require('../../assets/calzas/RUNNINGxl.png'),
-//       title: 'running'
-//     },
-//   ],
-//   fabrics: 'Lycras, Dryfit y telas técnicas',
-//   tabla: '../assets/calzas/Tabla talles leggins.png',
-//   mockup: require('../../assets/calzas/Calza Mockup altura cambiada.png'),
-//   prints: [
-//     require('../../assets/calzas/e0.png'),
-//     require('../../assets/calzas/e1.png'),
-//     require('../../assets/calzas/e2.png'),
-//     require('../../assets/calzas/e3.png'),
-//     require('../../assets/calzas/e4.png'),
-//     require('../../assets/calzas/e5.png'),
-//   ],
-//   link: 'https://www.google.com/search?q=calzas&source=lmns&bih=1254&biw=1278&rlz=1C1VDKB_esAR1016AR1016&hl=es-419&sa=X&ved=2ahUKEwjNuL-hlv77AhWsppUCHeijCeQQ_AUoAHoECAEQAA'
-// }
+import { useNavigate } from 'react-router-dom';
 
 const Item = ({producto, right, left}) => {
 
   const [selectedImg, setSelectedImg] = useState(producto.imgs[0].xl);
+  const navigate = useNavigate()
 
   const clickImg = (url) => {
     setSelectedImg(url)
+  }
+
+  const clickTable = () => {
+    navigate(`table`)
   }
 
   return (
@@ -76,7 +46,13 @@ const Item = ({producto, right, left}) => {
               Sin límite de colores y diseños
             </li>
             <li>
-              Talles desde XS hasta 10XL
+              Talles desde XS hasta 10XL 
+              {producto.tabla ? (
+                  <p onClick={clickTable}> ver tabla</p>
+                ):(
+                  <p>none</p>
+                )
+              }
             </li>
             <li>
               Lycras, Dryfit y telas técnicas

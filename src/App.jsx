@@ -11,9 +11,9 @@ import Nosotros from './pages/nosotros/Nosotros';
 import Productos from './pages/productos/Productos';
 import sportBanner from './assets/bannerdeportivo.png'
 import urbanBanner from './assets/bannerurbano.png'
-import Prueba from './pages/prueba/Prueba';
 import { dataSport, dataUrban } from './data/products.js';
 import { productsList } from './data/products.js';
+import Table from './pages/table/Table';
 
 
 function App() {
@@ -38,6 +38,10 @@ function App() {
       <Route path='/productos/6' element={<Item producto={productsList[6]} right={840} left={-840}/>} /> 
       <Route path='/productos/7' element={<Item producto={productsList[7]} right={840} left={-840}/>} /> 
       <Route path='/productos/8' element={<Item producto={productsList[8]} right={840} left={-840}/>} /> 
+      <Route path='/productos/4/table' element={<Table producto={productsList[4]}/>} /> 
+      <Route path='/productos/5/table' element={<Table producto={productsList[4]}/>} /> 
+      <Route path='/productos/1/table' element={<Table producto={productsList[1]}/>} /> 
+      <Route path='/productos/7/table' element={<Table producto={productsList[1]}/>} /> 
       {/* <Route path='/productos/:category/1' element={<Mallas/>} /> 
       <Route path='/productos/:category/2' element={<Remeras/>} /> 
       <Route path='/productos/:category/3' element={<Pantalon/>} /> 
@@ -45,7 +49,7 @@ function App() {
       <Route path='/productos/:category/5' element={<Calzas/>} />  */}
       
       {/* <Route path='/productos' element={<ItemRoutes/>} />  */}
-      <Route path='/productos/prueba' element={<Prueba/>} /> 
+      {/* <Route path='/productos/prueba' element={<Prueba/>} />  */}
     </Routes>
     <Footer/> 
    </>
