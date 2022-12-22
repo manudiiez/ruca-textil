@@ -71,7 +71,7 @@ const Item = ({producto, right, left}) => {
               ))
             }
           </div>
-          <a href="https://api.whatsapp.com/send?phone=+5492615660798&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20esta%20indumentaria:">
+          <a href={producto.link}>
           <button>
             <img src={wsp} alt="" />
             <span>REALIZAR UN PEDIDO</span>

@@ -24,7 +24,7 @@ export const productsList = [
             require('../assets/mallas/e5.png'),
             require('../assets/mallas/e6.png'),
         ],
-        link: 'https://www.google.com/search?q=calzas&source=lmns&bih=1254&biw=1278&rlz=1C1VDKB_esAR1016AR1016&hl=es-419&sa=X&ved=2ahUKEwjNuL-hlv77AhWsppUCHeijCeQQ_AUoAHoECAEQAA'
+        link: 'https://api.whatsapp.com/send?phone=+5492615660798&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20esta%20indumentaria:%20mallas'
     },
     {
         id: 1,
@@ -66,7 +66,7 @@ export const productsList = [
             require('../assets/remeras/e5.png'),
             require('../assets/remeras/e6.png'),
         ],
-        link: 'https://www.google.com/search?q=calzas&source=lmns&bih=1254&biw=1278&rlz=1C1VDKB_esAR1016AR1016&hl=es-419&sa=X&ved=2ahUKEwjNuL-hlv77AhWsppUCHeijCeQQ_AUoAHoECAEQAA'
+        link: 'https://api.whatsapp.com/send?phone=+5492615660798&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20esta%20indumentaria:%20remeras'
     },
     {
         id: 2,
@@ -92,7 +92,7 @@ export const productsList = [
             require('../assets/pantalones/e5.png'),
             require('../assets/pantalones/e6.png'),
         ],
-        link: 'https://www.google.com/search?q=calzas&source=lmns&bih=1254&biw=1278&rlz=1C1VDKB_esAR1016AR1016&hl=es-419&sa=X&ved=2ahUKEwjNuL-hlv77AhWsppUCHeijCeQQ_AUoAHoECAEQAA'
+        link: 'https://api.whatsapp.com/send?phone=+5492615660798&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20esta%20indumentaria:%20pantalones'
     },
     {
         id: 3,
@@ -123,7 +123,7 @@ export const productsList = [
             require('../assets/tops/e5.png'),
             require('../assets/tops/e6.png'),
         ],
-        link: 'https://www.google.com/search?q=calzas&source=lmns&bih=1254&biw=1278&rlz=1C1VDKB_esAR1016AR1016&hl=es-419&sa=X&ved=2ahUKEwjNuL-hlv77AhWsppUCHeijCeQQ_AUoAHoECAEQAA'
+        link: 'https://api.whatsapp.com/send?phone=+5492615660798&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20esta%20indumentaria:%20tops'
     },
     {
         id: 4,
@@ -159,7 +159,7 @@ export const productsList = [
             require('../assets/calzas/e4.png'),
             require('../assets/calzas/e5.png'),
         ],
-        link: 'https://www.google.com/search?q=calzas&source=lmns&bih=1254&biw=1278&rlz=1C1VDKB_esAR1016AR1016&hl=es-419&sa=X&ved=2ahUKEwjNuL-hlv77AhWsppUCHeijCeQQ_AUoAHoECAEQAA'
+        link: 'https://api.whatsapp.com/send?phone=+5492615660798&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20esta%20indumentaria:%20calzas'
     },
     {
         id: 5,
@@ -195,7 +195,7 @@ export const productsList = [
             require('../assets/calzas/e4.png'),
             require('../assets/calzas/e5.png'),
         ],
-        link: 'https://www.google.com/search?q=calzas&source=lmns&bih=1254&biw=1278&rlz=1C1VDKB_esAR1016AR1016&hl=es-419&sa=X&ved=2ahUKEwjNuL-hlv77AhWsppUCHeijCeQQ_AUoAHoECAEQAA'
+        link: 'https://api.whatsapp.com/send?phone=+5492615660798&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20esta%20indumentaria:%20calzas'
     },
     {
         id: 6,
@@ -226,7 +226,7 @@ export const productsList = [
             require('../assets/buzos/e5.png'),
             require('../assets/buzos/e6.png'),
         ],
-        link: 'https://www.google.com/search?q=calzas&source=lmns&bih=1254&biw=1278&rlz=1C1VDKB_esAR1016AR1016&hl=es-419&sa=X&ved=2ahUKEwjNuL-hlv77AhWsppUCHeijCeQQ_AUoAHoECAEQAA'
+        link: 'https://api.whatsapp.com/send?phone=+5492615660798&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20esta%20indumentaria:%20buzos'
     },
     {
         id: 7,
@@ -268,7 +268,7 @@ export const productsList = [
             require('../assets/remeras/e5.png'),
             require('../assets/remeras/e6.png'),
         ],
-        link: 'https://www.google.com/search?q=calzas&source=lmns&bih=1254&biw=1278&rlz=1C1VDKB_esAR1016AR1016&hl=es-419&sa=X&ved=2ahUKEwjNuL-hlv77AhWsppUCHeijCeQQ_AUoAHoECAEQAA'
+        link: 'https://api.whatsapp.com/send?phone=+5492615660798&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20esta%20indumentaria:%20remeras'
     },
     {
         id: 8,
@@ -299,7 +299,7 @@ export const productsList = [
             require('../assets/tops/e5.png'),
             require('../assets/tops/e6.png'),
         ],
-        link: 'https://www.google.com/search?q=calzas&source=lmns&bih=1254&biw=1278&rlz=1C1VDKB_esAR1016AR1016&hl=es-419&sa=X&ved=2ahUKEwjNuL-hlv77AhWsppUCHeijCeQQ_AUoAHoECAEQAA'
+        link: 'https://api.whatsapp.com/send?phone=+5492615660798&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20esta%20indumentaria:%20tops'
     },
 ]
 
